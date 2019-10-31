@@ -19,6 +19,8 @@ public class UomController {
 	@Autowired
 	private IUomService service;
 	
+	private String name;
+	
 	@RequestMapping("/register")
 	public String showReg() {
 		return "UomRegister";
